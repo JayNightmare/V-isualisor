@@ -1,0 +1,42 @@
+{
+	"name": "vtuber-generator",
+	"displayName": "V-isualisor",
+	"version": "1.0.0",
+	"description": "A Vtuber Generator App built with React, Three.js, and MediaPipe.",
+	"author": "JayNightmare",
+	"license": "MIT",
+	"main": "src/index.js",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"test": "vitest run",
+		"lint": "eslint src server",
+		"format": "prettier --write src"
+	},
+	"dependencies": {
+		"@huggingface/transformers": "^4.3.1",
+		"@mediapipe/tasks-vision": "^1.1.1",
+		"@types/three": "^0.186.0",
+		"lucide-react": "^1.59.0",
+		"react": "^19.3.1",
+		"react-dom": "^19.3.1",
+		"three": "^0.186.1"
+	},
+	"private": true,
+	"type": "module",
+	"devDependencies": {
+		"@eslint/js": "^9.39.5",
+		"@vitejs/plugin-react": "^6.1.2",
+		"autoprefixer": "^10.6.1",
+		"eslint": "^9.39.5",
+		"eslint-plugin-react": "^7.37.5",
+		"eslint-plugin-react-hooks": "^7.1.1",
+		"globals": "^17.13.0",
+		"postcss": "^8.5.30",
+		"prettier": "^3.9.10",
+		"tailwindcss": "^3.4.19",
+		"vite": "^8.3.4",
+		"vitest": "^5.0.5"
+	}
+}
